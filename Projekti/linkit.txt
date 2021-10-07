@@ -15,5 +15,3 @@ font-family: 'Roboto Mono', monospace;
 font-family: 'Roboto Slab', serif;
 
 https://www.diagrams.net/
-=======
->>>>>>> 6e486d793b16bfed4284e9745a2c670d940349a5
