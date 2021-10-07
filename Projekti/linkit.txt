@@ -1,7 +1,13 @@
 https://coolors.co/0a0908-22333b-eae0d5-c6ac8f-5e503f
 
 https://fonts.google.com/specimen/Roboto+Slab
+Regular 400
 
 https://fonts.google.com/specimen/Roboto+Mono?query=roboto
+Extra light 200
 
 https://fonts.google.com/specimen/Roboto?query=roboto
+Regular 400
+
+
+https://www.diagrams.net/
