@@ -1,0 +1,36 @@
+a:link {
+  color:#0645AD;
+}
+a:hover {
+  color: #0B0080;
+}
+h1
+{
+  color: #eae0d5;
+  padding: 22px 0 0 20px;
+  font-family: 'Roboto Slab', serif;
+}
+h2
+{
+  color: #DDCDBB;
+  font-size: 12px;
+  margin-top: -25px;
+  margin-left: 20px;
+  font-family: 'Roboto Mono', monospace;
+}
+p
+{
+  font-family: 'Roboto', sans-serif;
+}
+h3
+{
+  font-family: 'Roboto', sans-serif;
+}
+li
+{
+    font-family: 'Roboto', sans-serif;
+}
+#eka
+{
+    margin-top: -15px;
+}

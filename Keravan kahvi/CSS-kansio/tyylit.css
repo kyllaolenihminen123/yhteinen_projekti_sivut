@@ -2,43 +2,44 @@ body
 {
   background-color: #c6ac8f;
 }
+
+
+
 header
 {
-  height: 100px;
+  height: 120px;
   background: #5e503f;
-}
-h1
-{
-  color: #eae0d5;
-  padding: 22px 0 0 20px;
-  font-family: 'Roboto Slab', serif;
-}
-h2
-{
-  color: #DDCDBB;
-  font-size: 12px;
-  font-family: 'Roboto Mono', monospace;
 }
 nav
 {
-  width: 400px;
+  width: 280px;
+  height: 20px;
   background: #D6C136;
-  margin-left: 10px;
+  margin: 22px 0 0 13px;
 }
 nav ul
 {
-  margin: 0 0 42px 0;
+float: left;
+margin: 1px 0 0px -40px;
 }
 nav li
 {
   float: left;
   list-style-type: none;
-  padding: 0 15px;
+  padding: 0 8px;
 }
+
+
+
+
 section
 {
   width: 400px;
 }
+
+
+
+
 article
 {
   width: 400px;
@@ -46,15 +47,20 @@ article
 }
 article p
 {
-  padding: 50px;
+  padding: 0 20px;
 }
+article h3
+{
+  padding: 0 20px;
+}
+
 aside
 {
   width: 200px;
   height: 502px;
   background: #eae0d5;
   float: right;
-  margin-top: -1px;
+  margin-top: 0px;
 }
 
 aside article
@@ -63,14 +69,18 @@ aside article
   background: #eae0d5;
   color: black;
 }
+
+
+
+
 footer
 {
-  height: 50px;
+  height: 110px;
   background: #22333b;
   margin-top: 0px;
 }
 footer p
 {
-  color: white;
-  padding: 30px 0 0 10px;
+  color: #d9d9d9;
+  padding: 10px 0 0 10px;
 }
