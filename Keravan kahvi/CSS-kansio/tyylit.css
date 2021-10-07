@@ -11,6 +11,13 @@ h1
 {
   color: #eae0d5;
   padding: 22px 0 0 20px;
+  font-family: 'Roboto Slab', serif;
+}
+h2
+{
+  color: #DDCDBB;
+  font-size: 12px;
+  font-family: 'Roboto Mono', monospace;
 }
 nav
 {
@@ -31,11 +38,6 @@ nav li
 section
 {
   width: 400px;
-}
-h2
-{
-  color: #;
-  padding: 0 0 0 0px;
 }
 article
 {

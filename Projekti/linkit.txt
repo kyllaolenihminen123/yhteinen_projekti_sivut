@@ -9,5 +9,8 @@ Extra light 200
 https://fonts.google.com/specimen/Roboto?query=roboto
 Regular 400
 
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Roboto Slab', serif;
 
 https://www.diagrams.net/
