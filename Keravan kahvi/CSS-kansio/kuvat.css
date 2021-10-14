@@ -21,3 +21,10 @@
   height: 185px;
   width: 185px;
 }
+#logo
+{
+height: 50px;
+width: 50px;
+margin: 25px 10px 0 10px;
+float: left;
+}
