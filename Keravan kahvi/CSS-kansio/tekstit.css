@@ -34,3 +34,15 @@ li
 {
     margin-top: -15px;
 }
+#aukioloajat
+{
+  margin: 10px 10px 0px 10px;
+  font-size: 20px;
+  color: #eae0d5
+}
+#päivät
+{
+  margin-top: 5px;
+  font-size: 12px;
+  color: #eae0d5
+}

@@ -86,3 +86,10 @@ footer p
   color: #d9d9d9;
   padding: 10px 0 0 10px;
 }
+
+.aukioloajat
+{
+  text-align: center;
+  float: right;
+  margin: -80px 20px 0 0;
+}
