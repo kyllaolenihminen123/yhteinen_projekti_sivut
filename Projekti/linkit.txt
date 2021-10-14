@@ -8,7 +8,6 @@ Extra light 200
 
 https://fonts.google.com/specimen/Roboto?query=roboto
 Regular 400
-<<<<<<< HEAD
 
 font-family: 'Roboto', sans-serif;
 font-family: 'Roboto Mono', monospace;
