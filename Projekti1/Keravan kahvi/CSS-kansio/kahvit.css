@@ -1,0 +1,18 @@
+.tuote
+{
+background-color: white;
+box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
+max-width: 250px;
+margin: auto;
+text-align: center;
+}
+.hinta
+{
+color: #eae0d5;
+font-size: 22px;
+}
+#Kahvi1
+{
+  margin: 10px 10px 10px 10px;
+  width: 185px;
+}
