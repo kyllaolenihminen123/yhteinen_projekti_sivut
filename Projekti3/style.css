@@ -1,5 +1,7 @@
 body, html {
   height: 100%;
+  margin: 0px;
+  padding: 0px;
 }
 .parallax {
   height: 100%;
@@ -33,4 +35,10 @@ article{
   height:300px;
   background-color:#718DA5;
   font-size:36px;
+}
+#div4{
+  padding-top: 20%;
+  padding-left: 45%;
+  background-image: url('kuvat/kuva1.jpg');
+  text-align: center;
 }
