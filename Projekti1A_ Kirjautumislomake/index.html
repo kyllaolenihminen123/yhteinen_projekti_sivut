@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fi">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kirjautumislomake</title>
+    <link rel="stylesheet" href="tyyli.css">
+    <script src="koodi.js"></script>
+  </head>
+  <body>
+    <form>
+      <h1>Kirjautumislomake</h1>
+      <label for="nimi">Nimi:</label><br>
+      <input type="text" id="nimi" value=""><br>
+        <label for="salasana">Salasana:</label><br>
+        <input type="password" id="salasana" value=""><br>
+        <p>Tätä tietoa ei näytetä käyttäjälle</p>
+        <label for="koneenkäyttäjä">Millainen koneenkäyttäjä olet</label><br>
+        <input type="radio" name="koneenk" value="himopelaaja">Himopelaaja<br>
+        <input type="radio" name="koneenk" value="opiskelija">Käytän opiskeluun<br>
+        <input type="radio" name="koneenk" value="en käytä">En käytä<br>
+        <label for="mieltä">Mitä mieltä olet sivustosta</label><br>
+        <input type="checkbox" name="Hienot" value="hienot">Todella hienot <br>
+        <input type="checkbox" name="Ammattimaiset" value="ammattimaiset">Ammattimaiset tehdyt <br>
+        <input type="checkbox" name="Ostan" value="ostan">Ostan sinulta! <br>
+        <label for="Lempiaine">Mikä on lempiaineesi keudassa</label><br>
+        <select id=lempiaine name="lempiaine">
+          <option style="display:none" value="none">⠀</option>
+          <option value="ammattiaineet">Ammattiaineet</option>
+          <option value="ohjelmointi">Ohjelmointi</option>
+          <option value="matematiikka">Matematiikka</option>
+          <option value="kielet">Kielet</option>
+        </select><br>
+        <label for="kehitys">Miten kehittäisit sivujani</label><br>
+        <textarea id=kehitys rows="8" cols="80"></textarea><br>
+        <input type="submit" name="lähetä" value="Lähetä">
+    </form>
+  </body>
+</html>

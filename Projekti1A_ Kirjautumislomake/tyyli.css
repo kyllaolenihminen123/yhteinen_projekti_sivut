@@ -1,0 +1,14 @@
+label{
+  font-weight: bold;
+}
+form{
+  width: 30%;
+  margin: auto;
+  border: 2px dotted black;
+  border-radius: 30px;
+  padding: 20px;
+  background-color: lightgray;
+}
+textarea{
+  width: 80%;
+}
