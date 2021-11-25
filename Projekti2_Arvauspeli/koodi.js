@@ -1,4 +1,3 @@
-
 var kokeilu = 0;
 var arvo =  Math.floor(Math.random() * 11);
 function alka()
@@ -18,13 +17,13 @@ function paina (a)
   if (kokeilu > 3)
   {
     alka();
-    return alert( "Tämä olet kokeilut 4 kertaa Valitettavasti hävisi kilpailun ");
+    return alert( "Olet kokeillut 4 kertaa. Valitettavasti hävisit pelin ");
   }
   if( parseInt(a) === arvo)
   {
     let ukokeilu = kokeilu;
     alka();
-    return alert(" Onnea Voitte " + ukokeilu + " Kertaa" );
+    return alert(" Onnea! voitit " + ukokeilu + " yrityksellä" );
 
   }
   else if (a > arvo)
@@ -34,12 +33,12 @@ function paina (a)
    document.getElementById(i).disabled = true;
    }
 
-    return alert("  liian suuri  ");
+    return alert("  Liian suuri  ");
   }
 
   for(let i = 0; i <= a; i++)
   {
   document.getElementById(i).disabled = true;
   }
-   return  alert("  liian pieni  ");
+   return  alert("  Liian pieni  ");
 }
