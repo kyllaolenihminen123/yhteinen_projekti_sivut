@@ -12,3 +12,6 @@ form{
 textarea{
   width: 80%;
 }
+#selitys{
+  font-style: italic;
+}
