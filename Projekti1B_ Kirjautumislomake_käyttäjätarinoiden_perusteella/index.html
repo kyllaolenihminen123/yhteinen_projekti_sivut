@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fi">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kirjautumislomake</title>
+    <link rel="stylesheet" href="tyyli.css">
+    <script src="koodi.js"></script>
+  </head>
+  <body>
+    <div class="lomake">
+      <h1 id=otsikko>Kirjautumislomake</h1>
+      <p id="kuvaus">kuvaus</p>
+        <form id="kyselylomake" action="index.html">
+        <label id="nimisyotto">Nimi:</label><br>
+        <input type="text" id="nimi" value=""><br>
+        <p id="ohjeet">Kirjoita kokonimi: Etunimi Sukunimi</p>
+        <label id="emailsyotto">Sähköposti:</label><br>
+        <input type="text" id="email" value=""><br>
+        <p id="ohjeet">Kirjoita sähköpostiosoite: esimerkki@esimerkki.com</p>
+        <label id="ikasyotot">Ikä:</label><br>
+        <input type="text" id="ika" value=""><br>
+        <p id="ohjeet">Kirjoita sinun ikäsi</p>
+        <select id="pudotus">
+          <option style="display:none" value="none">⠀</option>
+          <option value="" id="">Väliaikainen</option>
+          <option value="" id=>Väliaikainen</option>
+        </select><br>
+          <label id="radio">Millainen koneenkäyttäjä olet</label><br>
+                <input type="radio" id="" name="" value="">Väliaikainen<br>
+                <input type="radio" id="" name="" value="">Väliaikainen<br>
+                <label id="">Lisäkommentteja</label><br>
+                      <textarea id=lisäkommetti rows="8" cols="80"></textarea><br>
+        <input type="submit" onclick="lähetä()" value="Lähetä">
+    </form>
+    </div>
+  </body>
+</html>
