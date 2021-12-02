@@ -1,1 +1,46 @@
-p
+body
+{
+  width: 100%;
+  text-align: center;
+  padding-top: 10%;
+  background: #8EA28F;
+}
+div
+{
+  margin: auto;;
+  width: 300px;
+}
+table
+{
+  background-color: #CF7518;
+  border: 3px solid black;
+  width: 300px;
+}
+
+tr{
+
+  border: 2px solid black;
+ }
+ td {
+   margin: 8px;
+   border: 2px solid black;
+   text-align: center;
+   width: 50px;
+   float: left;
+   height: 40px;
+ }
+input
+{
+  margin-top: 3px;
+  width: 260px;
+  height: 40px;
+  text-align: center;
+}
+button
+{
+  margin-top: 10px;
+}
+h1
+{
+  color: #6C6980 ;
+}
