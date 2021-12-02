@@ -1,0 +1,13 @@
+body{
+  margin: auto;
+  max-width: 500px;
+  margin-top: 70px;
+  background-color: lightgray;
+}
+.tulokset{
+  background-color: lightblue;
+  border-radius: 6px;
+}
+h1, h3, p{
+  font-family: 'Open Sans', sans-serif;
+}
