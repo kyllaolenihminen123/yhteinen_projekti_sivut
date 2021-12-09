@@ -1,6 +1,7 @@
 body
 {
   width: 100%;
+  height: 100%;
   text-align: center;
   padding-top: 10%;
   background: #8EA28F;
@@ -8,13 +9,16 @@ body
 div
 {
   margin: auto;;
-  width: 300px;
+  width: 50%;
+  height: auto;
+  border: 3px solid black;
 }
 table
 {
   background-color: #CF7518;
   border: 3px solid black;
-  width: 300px;
+  width: 100%;
+  height: auto;;
 }
 
 tr{
@@ -22,25 +26,21 @@ tr{
   border: 2px solid black;
  }
  td {
-   margin: 8px;
+   margin: 1%;
    border: 2px solid black;
    text-align: center;
-   width: 50px;
+   width: 20%;
+    background-color: #fff;
    float: left;
-   height: 40px;
  }
-input
+img
 {
-  margin-top: 3px;
-  width: 260px;
-  height: 40px;
-  text-align: center;
+  width: 100%;
+  height: auto;
 }
 button
 {
   margin-top: 5px;
-  width: 40px;
-  height: 30px;
   background-color:#EFF8D0;
   font-weight: bold;
   font-size: 14px;
