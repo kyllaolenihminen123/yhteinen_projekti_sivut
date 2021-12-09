@@ -11,37 +11,37 @@
     <h1>Projecti 3 Nelilaskin</h1>
     <form class="" action="index.html" method="post">
       <div class="">
+
    <table>
      <tr> <th> <input id="input1"></input> </th></tr>
      <tr>
-      <td><button type="button" name="button">AC</button></td>
-      <td><button type="button" name="button">C</button></td>
-      <td><button type="button" name="button">%</button></td>
-      <td><button type="button" name="button">/</button></td>
+      <td><button type="button" name="button" onclick="poista('AC')">AC</button></td>
+      <td><button type="button" name="button" onclick="poista('C')">C</button></td>
+      <td><button type="button" name="button" onclick="laske('%')">%</button></td>
+      <td><button type="button" name="button" onclick="laske('/')">/</button></td>
      </tr>
      <tr>
        <td><button type="button" name="button" onclick="lukusyotta(7)">7</button></td>
       <td><button type="button" name="button" onclick="lukusyotta(8)">8</button></td>
       <td><button type="button" name="button" onclick="lukusyotta(9)">9</button></td>
-      <td><button type="button" name="button">X</button></td>
+      <td><button type="button" name="button" onclick="laske('*')">X</button></td>
      </tr>
      <tr>
        <td><button type="button" name="button" onclick="lukusyotta(4)">4</button></td>
       <td><button type="button" name="button" onclick="lukusyotta(5)">5</button></td>
       <td><button type="button" name="button" onclick="lukusyotta(6)">6</button></td>
-      <td><button type="button" name="button">-</button></td>
+      <td><button type="button" name="button" onclick="laske('-')">-</button></td>
      </tr>
      <tr>
        <td><button type="button" name="button" onclick="lukusyotta(1)">1</button></td>
       <td><button type="button" name="button" onclick="lukusyotta(2)">2</button></td>
       <td><button type="button" name="button" onclick="lukusyotta(3)">3</button></td>
-      <td><button type="button" name="button" onclick="laske(11)">+</button></td>
+      <td><button type="button" name="button" onclick="laske('+')">+</button></td>
      </tr>
      <tr>
-       <td style="width: 120px;"><button style="width: 80px;"type="button" name="button" "lukusyotta(0)">0</button></td>
+       <td style="width: 120px;"><button style="width: 80px;"type="button" name="button" onclick="lukusyotta(0)">0</button></td>
       <td><button type="button" name="button" onclick="lukusyotta('.')">,</button></td>
-      <td><button type="button" name="button" onclick="laske(12)"> = </button></td>
-
+      <td><button type="button" name="button2" onclick="on()"> = </button></td>
      </tr>
    </table>
      </div>
