@@ -1,32 +1,24 @@
 
 var luku1="";
-var luku2 =[];
+var luku2;
 var tulos= 0;
+var lasketus ;
 function lukusyotta(a)
 {
     luku1 += a ;
     document.getElementById("input1").value = luku1.toString();
 }
-function laske(b)
+function laske(a)
 {
-  luku2.push(document.getElementById("input1").value);
-  luku1="";
-  luku2.push((b =='%')? '*1/100':b);
-  document.getElementById("input1").value = "";
+lasketus ="";
+switch (a) {
+  case 11:
+    tulos += parseInt(luku1);
+    luku1 ="";
+    return document.getElementById("input1").value="";
+    break;
+  case 12:
+    return  document.getElementById("input1").value = tulos.toString();
+    break;
 }
-function on()
-{
-  luku2.push(document.getElementById("input1").value);
-  luku1="";
-  tulos = eval(luku2.toString().replace(/,/g, ''));
-  document.getElementById("input1").value= tulos.toString();
-  luku2=[];
-  tulos=0;
-}
-function poista(c)
-{
-   luku1="";
-   luku2 = (c=='C')? luku2=[]: luku2 ;
-   tulos= 0;
-   document.getElementById("input1").value = "";
 }

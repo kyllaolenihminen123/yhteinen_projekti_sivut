@@ -38,12 +38,7 @@ input
 }
 button
 {
-  margin-top: 5px;
-  width: 40px;
-  height: 30px;
-  background-color:#EFF8D0;
-  font-weight: bold;
-  font-size: 14px;
+  margin-top: 10px;
 }
 h1
 {
