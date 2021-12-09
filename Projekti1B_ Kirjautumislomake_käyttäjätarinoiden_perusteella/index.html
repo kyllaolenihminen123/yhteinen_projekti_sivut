@@ -10,27 +10,34 @@
   <body>
     <div class="lomake">
       <h1 id=otsikko>Kirjautumislomake</h1>
-      <p id="kuvaus">kuvaus</p>
-        <form id="kyselylomake" action="index.html">
+      <p id="kuvaus">Tarvitsetko tiliä? Ota yhteyttä Matti Esimerkkiin.</p>
+
+        <form id="kirjautumislomake" action="index.html">
+
         <label id="nimisyotto">Nimi:</label><br>
-        <input type="text" id="nimi" value=""><br>
-        <p id="ohjeet">Kirjoita kokonimi: Etunimi Sukunimi</p>
+        <input type="text" id="nimi" value="" minlength="2" required><br>
+          <p id="ohjeet">Kirjoita kokonimi: Etunimi Sukunimi</p>
+
         <label id="emailsyotto">Sähköposti:</label><br>
-        <input type="text" id="email" value=""><br>
-        <p id="ohjeet">Kirjoita sähköpostiosoite: esimerkki@esimerkki.com</p>
+        <input type="email" id="email" value="" required><br>
+          <p id="ohjeet">Kirjoita sähköpostiosoite: esimerkki@esimerkki.com</p>
+
         <label id="ikasyotot">Ikä:</label><br>
-        <input type="text" id="ika" value=""><br>
-        <p id="ohjeet">Kirjoita sinun ikäsi</p>
+        <input type="number" id="ika" value="" min="18" max="64" required><br>
+          <p id="ohjeet">Kirjoita sinun ikäsi (18-64)</p>
+
         <select id="pudotus">
           <option style="display:none" value="none">⠀</option>
-          <option value="" id="">Väliaikainen</option>
-          <option value="" id=>Väliaikainen</option>
+          <option value="" id="Puhelin">Käytän puhelinta</option>
+          <option value="" id="Tietokone">Käytän tietokonetta</option>
         </select><br>
-          <label id="radio">Millainen koneenkäyttäjä olet</label><br>
-                <input type="radio" id="" name="" value="">Väliaikainen<br>
-                <input type="radio" id="" name="" value="">Väliaikainen<br>
-                <label id="">Lisäkommentteja</label><br>
-                      <textarea id=lisäkommetti rows="8" cols="80"></textarea><br>
+
+                <input type="radio" id="Alle30" name="ikakysymys" value="">Ikäni on 18-30<br>
+                <input type="radio" id="Yli30" name="ikakysymys" value="">Ikäni on 30+<br>
+
+                <label id="LisäkommettjaLabel">Lisäkommentteja</label><br>
+                  <textarea id=lisäkommetti rows="8" cols="80"></textarea><br>
+
         <input type="submit" onclick="lähetä()" value="Lähetä">
     </form>
     </div>
