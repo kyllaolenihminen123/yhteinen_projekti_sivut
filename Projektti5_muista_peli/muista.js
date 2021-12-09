@@ -40,19 +40,20 @@ function cevir(d)
   {
     toinen = d;
     valitus2 = "kuuvaa/" + dizi[d] + ".png";
-    return document.getElementById(d).src = valitus2;
-  }
-  else if (valitus1 == valitus2)
-  {
-     document.getElementById(ensi).onclick =false;
-     document.getElementById(toinen).onclick = false;
-     document.getElementById("td"+ensi).style.backgroundColor="#8EB9A4";
-     document.getElementById("td"+toinen).style.backgroundColor="#8EB9A4";
-     document.getElementById(ensi).src = valitus1;
-     document.getElementById(toinen).src = valitus2;
-     valitus1 = "kuuvaa/" + dizi[d] + ".png";
-     valitus2 =""; ensi=d; toinen= "";
-     return document.getElementById(d).src = valitus1;
+
+    if (valitus1 == valitus2)
+     {
+        document.getElementById(ensi).onclick =false;
+        document.getElementById(toinen).onclick = false;
+        document.getElementById("td"+ensi).style.backgroundColor="#8EB9A4";
+        document.getElementById("td"+toinen).style.backgroundColor="#8EB9A4";
+        document.getElementById(ensi).src = valitus1;
+        document.getElementById(toinen).src = valitus2;
+        valitus1 = "";//"kuuvaa/" + dizi[d] + ".png";
+        valitus2 =""; ensi=""; toinen= "";
+        return document.getElementById(d).src = "kuuvaa/" + dizi[d] + ".png";
+     }
+       return document.getElementById(d).src = valitus2;
   }
   else
   {
