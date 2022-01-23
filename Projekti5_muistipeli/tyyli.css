@@ -6,7 +6,7 @@ body
   padding-top: 10%;
   background: #8EA28F;
 }
-div
+.div
 {
   margin: auto;;
   width: 50%;
@@ -18,7 +18,7 @@ table
   background-color: #878594;
   border: 3px solid black;
   width: 100%;
-  height: auto;;
+  height: auto;
 }
 
 tr{
