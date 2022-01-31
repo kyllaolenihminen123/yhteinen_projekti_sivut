@@ -4,12 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Muistipeli</title>
-    <link rel="stylesheet" href="tyyli.css">
-    <script src="muista.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/tyyli.css">
   </head>
   <body>
-    <button type="button" name="button" id="aloitusnappi" onclick="luotaulu()">Aloita</button>
-    <div class="" id="div1">
-    </div>
+    <div id="Sidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="../index.html">Koti</a>
+  <a href="../html/peli.html">peli</a>
+</div>
+  <div class="header">
+    <h1>Muistipeli</h1>
+    <span onclick="openNav()">open</span>
+  </div>
+  <div class="main">
+    <h1>Ohjeet</h1>
+    <p>Muistipeli on peli missä on tarkoitus löytää korttiparit nurin päin käännetyistä korteista mahdollisimman pienellä määrällä yrityksiä.</p>
+    <input type="button" onclick="location.href='html/peli.html';" value="Pelaamaan"/>
+  </div>
+    <footer><p>&copy; Copyright 2022, Ei oikea yritys</p></footer>
   </body>
 </html>

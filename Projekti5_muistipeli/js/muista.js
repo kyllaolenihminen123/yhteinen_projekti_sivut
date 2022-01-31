@@ -16,8 +16,8 @@ function luotaulu()
     taulu +="<tr>";
     for (var j = 1; j <= koko; j++) {
       dizi[b]= dizi[b]%8 +1;
-      imgsrc.push('"kuvat/' + dizi[b] + '.png"');
-      taulu += '<td id="td' + b +'"><img src="kuvat/9.png" id="' + b +'" onclick = "cevir('+ b +')"></td>';
+      imgsrc.push('"../kuvat/' + dizi[b] + '.png"');
+      taulu += '<td id="td' + b +'"><img src="../kuvat/9.png" id="' + b +'" onclick = "cevir('+ b +')"></td>';
       b++;
     }
     taulu += "</tr>";
@@ -35,13 +35,13 @@ function cevir(d)
   if (valitus1 == "")
   {
     ensi = d;
-    valitus1= "kuvat/" + dizi[d] + ".png";
+    valitus1= "../kuvat/" + dizi[d] + ".png";
     return document.getElementById(d).src = valitus1;
   }
   else if (valitus2 == "")
   {
     toinen = d;
-    valitus2 = "kuvat/" + dizi[d] + ".png";
+    valitus2 = "../kuvat/" + dizi[d] + ".png";
 
     if (valitus1 == valitus2)
      {
@@ -51,17 +51,17 @@ function cevir(d)
         document.getElementById("td"+toinen).style.backgroundColor="#8EB9A4";
         document.getElementById(ensi).src = valitus1;
         document.getElementById(toinen).src = valitus2;
-        valitus1 = "";//"kuvat/" + dizi[d] + ".png";
+        valitus1 = "";//"../kuvat/" + dizi[d] + ".png";
         valitus2 =""; ensi=""; toinen= "";
-        return document.getElementById(d).src = "kuvat/" + dizi[d] + ".png";
+        return document.getElementById(d).src = "../kuvat/" + dizi[d] + ".png";
      }
        return document.getElementById(d).src = valitus2;
   }
   else
   {
-    document.getElementById(ensi).src = "kuvat/9.png";
-    document.getElementById(toinen).src = "kuvat/9.png";
-    valitus1 = "kuvat/" + dizi[d] + ".png";
+    document.getElementById(ensi).src = "../kuvat/9.png";
+    document.getElementById(toinen).src = "../kuvat/9.png";
+    valitus1 = "../kuvat/" + dizi[d] + ".png";
     valitus2 =""; ensi=d; toinen= "";
     return document.getElementById(d).src = valitus1;
   }
