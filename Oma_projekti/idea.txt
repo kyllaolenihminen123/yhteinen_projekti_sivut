@@ -1,0 +1,1 @@
+Javascriptillä tehty kuvankaappaustyökalu, joka on .EXE tiedosto. Kun .EXE tiedoston avaa, hiiri muuttuu ristikoksi ja on valmiina ottamaan kuvankaappauksen. Kuvankaappaus otetaan painamalla hiiren vasenta näppäintä pohjaan ja vetämällä alueen, jonka haluaa kaapata. Kuva tallentuu jpg muodossa leikepöytään valmiina lähetettävänä.

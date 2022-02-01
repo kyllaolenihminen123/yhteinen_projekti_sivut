@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fi">
+<html lang="fi" dir="ltr">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,19 +10,19 @@
   <body>
     <form id="" action="index.html">
       <label for="etunimi">Etunimi:</label><br>
-      <input type="text" id="etunimi" value=""><br>
-      <label for="sukunimi">sukunimi:</label><br>
-      <input type="text" id="sukunimi" value=""><br>
-      <label for="osoite">lähiosoite:</label><br>
-      <input type="text" id="osoite" value=""><br>
+      <input type="text" id="etunimi" value="" autofocus minlength="2" maxlength="32" required autocomplete="on"><br>
+      <label for="sukunimi">Sukunimi:</label><br>
+      <input type="text" id="sukunimi" value="" minlength="2" maxlength="32" required autocomplete="on"><br>
+      <label for="osoite">Lähiosoite:</label><br>
+      <input type="text" id="osoite" value="" minlength="2" required autocomplete="on"><br>
       <label for="postinumero">Postinumero:</label><br>
-      <input type="text" id="postinumero" value=""><br>
+      <input type="text" id="postinumero" value="" minlength="5" maxlength="5" required autocomplete="on"><br>
       <label for="postitoimipaikka">Postitoimipaikka:</label><br>
-      <input type="text" id="postitoimipaikka" value=""><br>
+      <input type="text" id="postitoimipaikka" value="" minlength="2" required autocomplete="on"><br>
       <label for="puhelin">Puhelin:</label><br>
-      <input type="text" id="puhelin" value=""><br>
+      <input type="text" id="puhelin" value="" minlength="4" maxlength="11" required autocomplete="on"><br>
       <label for="sähköposti">Sähköposti:</label><br>
-      <input type="text" id="sähköposti" value=""><br>
+      <input type="text" id="sähköposti" value="" minlength="2" required autocomplete="on"><br>
           <input type="button" onclick="lähetä()" value="Lähetä">
     </form>
   </body>

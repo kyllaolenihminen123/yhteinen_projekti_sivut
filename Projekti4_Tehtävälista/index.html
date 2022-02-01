@@ -1,10 +1,22 @@
 <!DOCTYPE html>
-<html lang="fi">
+<html lang="fi" dir="ltr">
   <head>
     <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Tehtävälista</title>
+    <link rel="stylesheet" type="text/css" href="tyyli.css">
+        <script src="lista.js"></script>
 </head>
   <body>
+    <h1>Tehtävälista</h1>
+    <p>Kirjoita listalle tehtävä ja paina Enter näppäintä. Kun tehtävä on valmis paina tehtävää hiiren vasemmalla näppäimellä.</p>
+    <div class="lista">
+      <input type="text" id="tehtava" autocomplete="off" autofocus required placeholder="Kirjoita tehtävä...">
+      <button type="button" name="button" id="lisaa">Lisää</button>
+      <ul>
+
+      </ul>
+    </div>
+      <footer><p>&copy; Copyright 2022, Ei oikea yritys</p></footer>
   </body>
 </html>
