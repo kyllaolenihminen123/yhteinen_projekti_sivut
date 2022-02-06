@@ -1,47 +1,48 @@
 a:link {
-  color:#0645AD;
+  color: #0645AD;
 }
+
 a:hover {
   color: #0B0080;
 }
-h1
-{
+
+h1 {
   color: #eae0d5;
   padding: 22px 0 0 20px;
   font-family: 'Roboto Slab', serif;
 }
-h2
-{
+
+h2 {
   color: #DDCDBB;
   font-size: 12px;
   margin-top: -25px;
   margin-left: 20px;
   font-family: 'Roboto Mono', monospace;
 }
-p
-{
+
+p {
   font-family: 'Roboto', sans-serif;
 }
-h3
-{
+
+h3 {
   font-family: 'Roboto', sans-serif;
 }
-li
-{
-    font-family: 'Roboto', sans-serif;
+
+li {
+  font-family: 'Roboto', sans-serif;
 }
-#eka
-{
-    margin-top: -15px;
+
+#eka {
+  margin-top: -15px;
 }
-#aukioloajat
-{
+
+#aukioloajat {
   margin: 10px 10px 0px 10px;
   font-size: 20px;
   color: #eae0d5
 }
-#päivät
-{
+
+#päivät {
   margin-top: 5px;
   font-size: 12px;
   color: #eae0d5

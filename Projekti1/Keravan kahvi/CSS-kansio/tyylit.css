@@ -1,63 +1,50 @@
-body
-{
+body {
   background-color: #c6ac8f;
 }
 
-
-
-header
-{
+header {
   height: 120px;
   background-image: url("../Kuvat/Banner.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
-nav
-{
+
+nav {
   width: 280px;
   height: 20px;
   background: #D6C136;
   margin: 22px 0 0 13px;
 }
-nav ul
-{
-float: left;
-margin: 1px 0 0px -40px;
+
+nav ul {
+  float: left;
+  margin: 1px 0 0px -40px;
 }
-nav li
-{
+
+nav li {
   float: left;
   list-style-type: none;
   padding: 0 8px;
 }
 
-
-
-
-section
-{
+section {
   width: 400px;
 }
 
-
-
-
-article
-{
+article {
   width: 400px;
   background: #c6ac8f;
 }
-article p
-{
-  padding: 0 20px;
-}
-article h3
-{
+
+article p {
   padding: 0 20px;
 }
 
-aside
-{
+article h3 {
+  padding: 0 20px;
+}
+
+aside {
   width: 200px;
   height: 502px;
   background: #eae0d5;
@@ -65,30 +52,24 @@ aside
   margin-top: 0px;
 }
 
-aside article
-{
+aside article {
   width: 100px;
   background: #eae0d5;
   color: black;
 }
 
-
-
-
-footer
-{
+footer {
   height: 110px;
   background: #22333b;
   margin-top: 0px;
 }
-footer p
-{
+
+footer p {
   color: #d9d9d9;
   padding: 10px 0 0 10px;
 }
 
-.aukioloajat
-{
+.aukioloajat {
   text-align: center;
   float: right;
   margin: -80px 20px 0 0;

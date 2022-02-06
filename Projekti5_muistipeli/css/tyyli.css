@@ -1,5 +1,4 @@
-body
-{
+body {
   position: fixed;
   margin: 0;
   padding: 0;
@@ -7,18 +6,28 @@ body
   height: 100%;
   background: #8EA28F;
 }
+
 /* The side navigation menu */
 .sidenav {
-  height: 100%; /* 100% Full-height */
-  width: 0; /* 0 width - change this with JavaScript */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
+  height: 100%;
+  /* 100% Full-height */
+  width: 0;
+  /* 0 width - change this with JavaScript */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Stay on top */
+  top: 0;
+  /* Stay at the top */
   left: 0;
-  background-color: #111; /* Black*/
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 60px; /* Place content 60px from the top */
-  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  background-color: #111;
+  /* Black*/
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 60px;
+  /* Place content 60px from the top */
+  transition: 0.5s;
+  /* 0.5 second transition effect to slide in the sidenav */
 }
 
 /* The navigation menu links */
@@ -44,21 +53,21 @@ body
   font-size: 36px;
   margin-left: 50px;
 }
-button, input
-{
+
+button, input {
   margin-top: 5px;
   margin-bottom: 5px;
-  background-color:#EFF8D0;
+  background-color: #EFF8D0;
   font-weight: bold;
   font-size: 14px;
 }
-.main
-{
+
+.main {
   margin-top: 20%;
   text-align: center;
 }
-.header
-{
+
+.header {
   position: fixed;
   top: 0;
   width: 100%;
@@ -68,14 +77,14 @@ button, input
   font-size: 15px;
   font-margin: 5px;
 }
-footer p
-{
+
+footer p {
   color: #888888;
   float: left;
   margin-left: 5px
 }
-footer
-{
+
+footer {
   position: absolute;
   bottom: 0;
   width: 100%;

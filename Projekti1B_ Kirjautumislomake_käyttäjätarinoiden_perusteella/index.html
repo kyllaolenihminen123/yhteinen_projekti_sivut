@@ -1,45 +1,49 @@
 <!DOCTYPE html>
 <html lang="fi">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Kirjautumislomake</title>
-    <link rel="stylesheet" href="tyyli.css">
-    <script src="koodi.js"></script>
-  </head>
-  <body>
-    <div class="lomake">
-      <h1 id=otsikko>Kirjautumislomake</h1>
-      <p id="kuvaus">Tarvitsetko tiliä? Ota yhteyttä Matti Esimerkkiin.</p>
 
-        <form id="kirjautumislomake" action="index.html">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kirjautumislomake</title>
+  <link rel="stylesheet" href="tyyli.css">
+  <script src="koodi.js"></script>
+</head>
 
-        <label id="nimisyotto">Nimi:</label><br>
-        <input type="text" id="nimi" value="" minlength="2" required><br>
-          <p id="ohjeet">Kirjoita kokonimi: Etunimi Sukunimi</p>
+<body>
+  <!-- Lomake -->
+  <div class="lomake">
+    <h1 id=otsikko>Kirjautumislomake</h1>
+    <p id="kuvaus">Tarvitsetko tiliä? Ota yhteyttä Matti Esimerkkiin.</p>
 
-        <label id="emailsyotto">Sähköposti:</label><br>
-        <input type="email" id="email" value="" required><br>
-          <p id="ohjeet">Kirjoita sähköpostiosoite: esimerkki@esimerkki.com</p>
-
-        <label id="ikasyotot">Ikä:</label><br>
-        <input type="number" id="ika" value="" min="18" max="64" required><br>
-          <p id="ohjeet">Kirjoita sinun ikäsi (18-64)</p>
-
-        <select id="pudotus">
-          <option style="display:none" value="none">⠀</option>
-          <option value="" id="Puhelin">Käytän puhelinta</option>
-          <option value="" id="Tietokone">Käytän tietokonetta</option>
-        </select><br>
-
-                <input type="radio" id="Alle30" name="ikakysymys" value="">Ikäni on 18-30<br>
-                <input type="radio" id="Yli30" name="ikakysymys" value="">Ikäni on 30+<br>
-
-                <label id="LisäkommettjaLabel">Lisäkommentteja</label><br>
-                  <textarea id=lisäkommetti rows="8" cols="80"></textarea><br>
-
-        <input type="submit" onclick="lähetä()" value="Lähetä">
+    <form id="kirjautumislomake" action="index.html">
+      <!-- Nimi -->
+      <label id="nimisyotto">Nimi:</label><br>
+      <input type="text" id="nimi" value="" minlength="2" required><br>
+      <p id="ohjeet">Kirjoita kokonimi: Etunimi Sukunimi</p>
+      <!-- Sähköposti -->
+      <label id="emailsyotto">Sähköposti:</label><br>
+      <input type="email" id="email" value="" required><br>
+      <p id="ohjeet">Kirjoita sähköpostiosoite: esimerkki@esimerkki.com</p>
+      <!-- Ikä -->
+      <label id="ikasyotot">Ikä:</label><br>
+      <input type="number" id="ika" value="" min="18" max="64" required><br>
+      <p id="ohjeet">Kirjoita sinun ikäsi (18-64)</p>
+      <!-- Pudotus menu, joka kysyy käyttääkö puhlinta vai tietokonetta. -->
+      <select id="pudotus">
+        <option style="display:none" value="none">⠀</option>
+        <option value="" id="Puhelin">Käytän puhelinta</option>
+        <option value="" id="Tietokone">Käytän tietokonetta</option>
+      </select><br>
+      <!-- Valinta onko ikä 18-30 tai 30+. -->
+      <input type="radio" id="Alle30" name="ikakysymys" value="">Ikäni on 18-30<br>
+      <input type="radio" id="Yli30" name="ikakysymys" value="">Ikäni on 30+<br>
+      <!-- Komenntikenttä, johon voi kirjoittaa lisäkommentin. -->
+      <label id="LisäkommettjaLabel">Lisäkommentteja</label><br>
+      <textarea id=lisäkommetti rows="8" cols="80"></textarea><br>
+      <!-- Lähetys nappi. -->
+      <input type="submit" onclick="lähetä()" value="Lähetä">
     </form>
-    </div>
-  </body>
+  </div>
+</body>
+
 </html>

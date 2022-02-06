@@ -1,7 +1,8 @@
-label{
+label {
   font-weight: bold;
 }
-form{
+
+form {
   width: 30%;
   margin: auto;
   border: 2px dotted black;
@@ -9,9 +10,11 @@ form{
   padding: 20px;
   background-color: lightgray;
 }
-textarea{
+
+textarea {
   width: 80%;
 }
-#selitys{
+
+#selitys {
   font-style: italic;
 }

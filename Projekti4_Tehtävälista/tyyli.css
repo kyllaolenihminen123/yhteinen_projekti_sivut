@@ -1,4 +1,4 @@
-body{
+body {
   position: fixed;
   margin: 0;
   padding: 0;
@@ -7,20 +7,21 @@ body{
   background-color: lightblue;
   text-align: center;
 }
-.lista{
-width: 60%;
-height: auto;
-margin: auto;
-padding: 10px;
+
+.lista {
+  width: 60%;
+  height: auto;
+  margin: auto;
+  padding: 10px;
 }
-footer p
-{
+
+footer p {
   color: #888888;
   float: left;
   margin-left: 5px
 }
-footer
-{
+
+footer {
   position: absolute;
   bottom: 0;
   width: 100%;

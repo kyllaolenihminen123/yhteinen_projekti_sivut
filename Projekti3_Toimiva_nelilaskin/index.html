@@ -1,50 +1,61 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Toimiva nelilaskin</title>
-    <link rel="stylesheet" href="tyyli.css">
-    <script src="laskin.js"></script>
-  </head>
-  <body>
-    <h1>Projecti 3 Nelilaskin</h1>
-    <form class="" action="index.html" method="post">
-      <div class="">
+<html lang="fi" dir="ltr">
 
-   <table>
-     <tr> <th> <input id="input1"></input> </th></tr>
-     <tr>
-      <td><button type="button" name="button" onclick="poista('AC')">AC</button></td>
-      <td><button type="button" name="button" onclick="poista('C')">C</button></td>
-      <td><button type="button" name="button" onclick="laske('%')">%</button></td>
-      <td><button type="button" name="button" onclick="laske('/')">/</button></td>
-     </tr>
-     <tr>
-       <td><button type="button" name="button" onclick="lukusyotta(7)">7</button></td>
-      <td><button type="button" name="button" onclick="lukusyotta(8)">8</button></td>
-      <td><button type="button" name="button" onclick="lukusyotta(9)">9</button></td>
-      <td><button type="button" name="button" onclick="laske('*')">X</button></td>
-     </tr>
-     <tr>
-       <td><button type="button" name="button" onclick="lukusyotta(4)">4</button></td>
-      <td><button type="button" name="button" onclick="lukusyotta(5)">5</button></td>
-      <td><button type="button" name="button" onclick="lukusyotta(6)">6</button></td>
-      <td><button type="button" name="button" onclick="laske('-')">-</button></td>
-     </tr>
-     <tr>
-       <td><button type="button" name="button" onclick="lukusyotta(1)">1</button></td>
-      <td><button type="button" name="button" onclick="lukusyotta(2)">2</button></td>
-      <td><button type="button" name="button" onclick="lukusyotta(3)">3</button></td>
-      <td><button type="button" name="button" onclick="laske('+')">+</button></td>
-     </tr>
-     <tr>
-       <td style="width: 120px;"><button style="width: 80px;"type="button" name="button" onclick="lukusyotta(0)">0</button></td>
-      <td><button type="button" name="button" onclick="lukusyotta('.')">,</button></td>
-      <td><button type="button" name="button2" onclick="on()"> = </button></td>
-     </tr>
-   </table>
-     </div>
-   </form>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Toimiva nelilaskin</title>
+  <link rel="stylesheet" href="tyyli.css">
+  <script src="laskin.js"></script>
+</head>
+
+<body>
+  <h1>Projekti 3 Nelilaskin</h1>
+  <!-- Nelilaskin -->
+  <form class="" action="index.html" method="post">
+    <div class="">
+
+      <table>
+        <tr>
+          <th> <input id="input1"></input> </th>
+        </tr>
+        <!-- Nelilaskimen ensimmäinen rivi. -->
+        <tr>
+          <td><button type="button" name="button" onclick="poista('AC')">AC</button></td>
+          <td><button type="button" name="button" onclick="poista('C')">C</button></td>
+          <td><button type="button" name="button" onclick="laske('%')">%</button></td>
+          <td><button type="button" name="button" onclick="laske('/')">/</button></td>
+        </tr>
+        <!-- Nelilaskimen toinen rivi. -->
+        <tr>
+          <td><button type="button" name="button" onclick="lukusyotta(7)">7</button></td>
+          <td><button type="button" name="button" onclick="lukusyotta(8)">8</button></td>
+          <td><button type="button" name="button" onclick="lukusyotta(9)">9</button></td>
+          <td><button type="button" name="button" onclick="laske('*')">X</button></td>
+        </tr>
+        <!-- Nelilaskimen kolmas rivi. -->
+        <tr>
+          <td><button type="button" name="button" onclick="lukusyotta(4)">4</button></td>
+          <td><button type="button" name="button" onclick="lukusyotta(5)">5</button></td>
+          <td><button type="button" name="button" onclick="lukusyotta(6)">6</button></td>
+          <td><button type="button" name="button" onclick="laske('-')">-</button></td>
+        </tr>
+        <!-- Nelilaskimen neljäs rivi. -->
+        <tr>
+          <td><button type="button" name="button" onclick="lukusyotta(1)">1</button></td>
+          <td><button type="button" name="button" onclick="lukusyotta(2)">2</button></td>
+          <td><button type="button" name="button" onclick="lukusyotta(3)">3</button></td>
+          <td><button type="button" name="button" onclick="laske('+')">+</button></td>
+        </tr>
+        <!-- Nelilaskimen viides tai viimeinen rivi. -->
+        <tr>
+          <td style="width: 120px;"><button style="width: 80px;" type="button" name="button" onclick="lukusyotta(0)">0</button></td>
+          <td><button type="button" name="button" onclick="lukusyotta('.')">,</button></td>
+          <td><button type="button" name="button2" onclick="on()"> = </button></td>
+        </tr>
+      </table>
+    </div>
+  </form>
+</body>
+
 </html>
