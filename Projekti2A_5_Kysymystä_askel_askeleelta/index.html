@@ -11,7 +11,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
   <script src="script.js"></script>
 </head>
-
 <body>
   <header>
     <h1>Tietovisa koodattu JavaScriptillä</h1>
@@ -23,34 +22,35 @@
       <form name="lomake">
         <!-- Ensimmäinen kysymys. -->
         <h3>1. Mihin HTML elementtiin sijoitamme JavaScript koodin?</h3>
-        <input type="radio" name="k1" value="a" id="kysymys1A">a. <b>js</b><br>
-        <input type="radio" name="k1" value="b" id="kysymys1B">b. <b>script</b><br>
-        <input type="radio" name="k1" value="c" id="kysymys1C">c. <b>body</b><br>
-        <input type="radio" name="k1" value="d" id="kysymys1D">a. <b>link</b><br>
+        <input type="radio" name="k1" value="a" id="kysymys1A">a. <b id="a1">js</b><br>
+        <input type="radio" name="k1" value="b" id="kysymys1B">b. <b id="b1">script</b><br>
+        <input type="radio" name="k1" value="c" id="kysymys1C">c. <b id="c1">body</b><br>
+        <input type="radio" name="k1" value="d" id="kysymys1D">d. <b id="d1">link</b><br>
         <!-- Toinen kysymys. -->
         <h3>2. Milloin JavaScript luotiin?</h3>
-        <input type="radio" name="k2" value="a" id="kysymys2A">a. <b>1995</b><br>
-        <input type="radio" name="k2" value="b" id="kysymys2B">b. <b>1998</b><br>
-        <input type="radio" name="k2" value="c" id="kysymys2C">c. <b>2000</b><br>
-        <input type="radio" name="k2" value="d" id="kysymys2D">a. <b>2015</b><br>
+        <input type="radio" name="k2" value="a" id="kysymys2A">a. <b id="a2">1995</b><br>
+        <input type="radio" name="k2" value="b" id="kysymys2B">b. <b id="b2">1998</b><br>
+        <input type="radio" name="k2" value="c" id="kysymys2C">c. <b id="c2">2000</b><br>
+        <input type="radio" name="k2" value="d" id="kysymys2D">d. <b id="d2">2015</b><br>
         <!-- Kolmas kysymys. -->
         <h3>3. Kuka loi JavaScriptin?</h3>
-        <input type="radio" name="k3" value="a" id="kysymys3A">a. <b>Google</b><br>
-        <input type="radio" name="k3" value="b" id="kysymys3B">b. <b>Apple</b><br>
-        <input type="radio" name="k3" value="c" id="kysymys3C">c. <b>Microsoft</b><br>
-        <input type="radio" name="k3" value="d" id="kysymys3D">a. <b>Netscape</b><br>
+        <input type="radio" name="k3" value="a" id="kysymys3A">a. <b id="a3">Google</b><br>
+        <input type="radio" name="k3" value="b" id="kysymys3B">b. <b id="b3">Apple</b><br>
+        <input type="radio" name="k3" value="c" id="kysymys3C">c. <b id="c3">Microsoft</b><br>
+        <input type="radio" name="k3" value="d" id="kysymys3D">d. <b id="d3">Netscape</b><br>
         <!-- Neljäs kysymys. -->
         <h3>4. Onko JavaScript sama asia kuin Java?</h3>
-        <input type="radio" name="k4" value="a" id="kysymys4A">a. <b>Kyllä</b><br>
-        <input type="radio" name="k4" value="b" id="kysymys4B">b. <b>Ei</b><br>
+        <input type="radio" name="k4" value="a" id="kysymys4A">a. <b id="a4">Kyllä</b><br>
+        <input type="radio" name="k4" value="b" id="kysymys4B">b. <b id="b4">Ei</b><br>
         <!-- Viides tai viimeinen kysymys. -->
         <h3>5. Onko JavaScript merkkikokoriippuvainen?</h3>
-        <input type="radio" name="k5" value="a" id="kysymys5A">a. <b>On</b><br>
-        <input type="radio" name="k5" value="b" id="kysymys5B">b. <b>Ei ole</b><br>
+        <input type="radio" name="k5" value="a" id="kysymys5A">a. <b id="a5">On</b><br>
+        <input type="radio" name="k5" value="b" id="kysymys5B">b. <b id="b5">Ei ole</b><br>
         <!-- Nappi, joka palauttaa vastaukset ja tarkistaa, kuinka moni meni oikein. -->
         <input type="button" onclick="tarkista()" value="Tarkista vastaukset">
       </form>
   </section>
+  <p id="tulos"></p>
   </div>
 </body>
 

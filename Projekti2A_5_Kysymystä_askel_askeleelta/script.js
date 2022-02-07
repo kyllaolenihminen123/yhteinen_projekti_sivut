@@ -1,14 +1,27 @@
 // Tarkistaa kysymyksien valintojen arvot.
+var laske =0;
+var nolla=false;
 function tarkista() {
-  var k1 = document.forms["lomake"]["k1"].value;
-  var k2 = document.forms["lomake"]["k1"].value;
-  var k3 = document.forms["lomake"]["k1"].value;
-  var k4 = document.forms["lomake"]["k1"].value;
-  var k5 = document.forms["lomake"]["k1"].value;
-  // Valittaa jos ei ole valinnut kaikkia laatikoita.
-  if () {
-    alert("Et ole täyttänyt kaikkia kenttiä.");
-    return;
+ if (nolla) {
+   nolla =false;
+   window.location.reload();
   }
-  document;
+  vastaa("b",1);
+  vastaa("a",2);
+  vastaa("d",3);
+  vastaa("b",4);
+  vastaa("b",5);
+document.getElementById("tulos").innerHTML= laske + "/5" + " Oikein Vastaa";
+ nolla=true;
+}
+function vastaa(oikeinvastaa, kysymys)
+{
+  var k = document.forms["lomake"]["k" + kysymys.toString()].value;
+  document.getElementById(k + kysymys.toString()).style.color= "red";
+  if (oikeinvastaa == k)
+  {
+  document.getElementById(oikeinvastaa + kysymys.toString()).style.color= "green";
+  laske++;
+  }
+
 }
