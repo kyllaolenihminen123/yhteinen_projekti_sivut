@@ -46,6 +46,6 @@ button, input {
   font-size: 14px;
 }
 
-h1 {
-  color: #6C6980;
+h1, p {
+  font-family: 'Open Sans', sans-serif;
 }
