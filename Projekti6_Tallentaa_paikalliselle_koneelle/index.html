@@ -12,22 +12,23 @@
 <body>
   <!-- Lomake -->
   <form id="" action="index.html">
-    <label for="etunimi">Etunimi:</label><br>
-    <input type="text" id="etunimi" value="" autofocus minlength="2" maxlength="32" required autocomplete="on"><br>
-    <label for="sukunimi">Sukunimi:</label><br>
-    <input type="text" id="sukunimi" value="" minlength="2" maxlength="32" required autocomplete="on"><br>
-    <label for="osoite">Lähiosoite:</label><br>
-    <input type="text" id="osoite" value="" minlength="2" required autocomplete="on"><br>
-    <label for="postinumero">Postinumero:</label><br>
-    <input type="text" id="postinumero" value="" minlength="5" maxlength="5" required autocomplete="on"><br>
-    <label for="postitoimipaikka">Postitoimipaikka:</label><br>
-    <input type="text" id="postitoimipaikka" value="" minlength="2" required autocomplete="on"><br>
-    <label for="puhelin">Puhelin:</label><br>
-    <input type="text" id="puhelin" value="" minlength="4" maxlength="11" required autocomplete="on"><br>
-    <label for="sähköposti">Sähköposti:</label><br>
-    <input type="text" id="sähköposti" value="" minlength="2" required autocomplete="on"><br>
-    <input type="button" onclick="lähetä()" value="Lähetä">
+    <label for="automerkki">Auto merkki:</label><br>
+    <input type="text" id="automerkki" value="" autofocus minlength="2" maxlength="32" required autocomplete="on"><br>
+    <label for="automalli">Malli:</label><br>
+    <input type="text" id="malli" value="" minlength="2" maxlength="32" required autocomplete="on"><br>
+    <label for="hinta">Hinta:</label><br>
+    <input type="text" id="hinta" value="" minlength="2" required autocomplete="on"><br>
   </form>
+  <!-- Lataa -->
+  <div class="dLataa">
+    <input type="text" id="tlataa" value="" autocomplete="off"><br>
+    <input type="button" onclick="lataa()" value="Lataa">
+  </div>
+  <!-- Poisto -->
+  <div class="dpoisto">
+    <input type="text" id="tpoista" value="" autocomplete="off"><br>
+    <input type="button" onclick="poista()" value="Poista">
+  </div>
 </body>
 
 </html>
