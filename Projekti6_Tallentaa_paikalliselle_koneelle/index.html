@@ -13,20 +13,30 @@
   <!-- Lomake -->
   <form id="" action="index.html">
     <label for="automerkki">Auto merkki:</label><br>
-    <input type="text" id="automerkki" value="" autofocus minlength="2" maxlength="32" required autocomplete="on"><br>
+    <input type="text" id="merkki" value="" autofocus minlength="2" maxlength="32" required autocomplete="on"><br>
     <label for="automalli">Malli:</label><br>
     <input type="text" id="malli" value="" minlength="2" maxlength="32" required autocomplete="on"><br>
     <label for="hinta">Hinta:</label><br>
     <input type="text" id="hinta" value="" minlength="2" required autocomplete="on"><br>
+    <label for="tunnus">ID:</label><br>
+    <input type="text" id="id1" value=""><br>
+    <p id="vadita" style="color= red;"></p>
   </form>
   <!-- Lataa -->
   <div class="dLataa">
-    <input type="text" id="tlataa" value="" autocomplete="off"><br>
     <input type="button" onclick="lataa()" value="Lataa">
+  </div>
+  <!-- Hae -->
+  <div>
+    <p id ="dropbox"></p>
+    <input type="text" id="hae" value="" autocomplete="off">
+    <input type="button" onclick="hae1()" value="Hae"><br>
+    <p id="tulos1"></p>
+
   </div>
   <!-- Poisto -->
   <div class="dpoisto">
-    <input type="text" id="tpoista" value="" autocomplete="off"><br>
+    <input type="text" id="tpoista" value="" autocomplete="off">
     <input type="button" onclick="poista()" value="Poista">
   </div>
 </body>
